@@ -1,0 +1,44 @@
+{
+  "name": "hubot-enbw",
+  "description": "Get the latest beer on tap at East Nashville Beer Works",
+  "version": "0.0.0",
+  "author": "Stephen Yeargin <stephen@yearg.in>",
+  "license": "MIT",
+  "keywords": "hubot, hubot-scripts, beer, east nashville, east nashville beer works, enbw",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stephenyeargin/hubot-enbw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stephenyeargin/hubot-enbw/issues"
+  },
+  "dependencies": {
+    "asciitable": "0.0.7"
+  },
+  "peerDependencies": {
+    "hubot": ">=2 <10 || 0.0.0-development"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coffee-script": "1.12.7",
+    "grunt": "^1.0.2",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-watch": "~1.1.0",
+    "grunt-mocha-test": "~0.13.3",
+    "grunt-release": "~0.14.0",
+    "hubot": "2.x",
+    "hubot-test-helper": "^1.9.0",
+    "husky": "^0.14.3",
+    "matchdep": "~2.0.0",
+    "mocha": "^5.2.0",
+    "nock": "^9.2.6",
+    "sinon": "^5.0.10",
+    "sinon-chai": "^3.1.0"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "test": "grunt test"
+  }
+}
