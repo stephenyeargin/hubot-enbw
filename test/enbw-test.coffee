@@ -51,11 +51,11 @@ describe 'hubot-enbw', ->
             "| Roaming Dog          | 5.2% | ESB + APA = ASB                    |\n" +
             "| Swing Bridge IPA     | 6.5% | American IPA                       |\n" +
             "| East Bank            | 7.0% | Citra IPA                          |\n" +
-            "| Wes Coast Hamatrillo | 7.2% | IPA, Amarillo and Citra hops       |\n" +
+            "| Woodland Hull Melon  | 4.5% | Session IPA w/ GER Hull Melon Hops |\n" +
             "| Holla Blanc          | 5.2% | APA w/ Hallertau Blanc Hops        |\n" +
+            "| Wes Coast Hamatrillo | 7.2% | IPA, Amarillo and Citra hops       |\n" +
             "| Talbot's Corner      | 6.0% | Belgian style witbier.             |\n" +
             "| Fire of the Century  | 5.5% | Malty red w/ NZ hops               |\n" +
-            "| Woodland Hull Melon  | 4.5% | Session IPA w/ GER Hull Melon Hops |\n" +
             "--------------------------------------------------------------------"
           ]
         ]
