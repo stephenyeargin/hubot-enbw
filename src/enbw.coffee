@@ -16,7 +16,7 @@ module.exports = (robot) ->
         name: beer.name,
         abv: "#{beer.abv}%",
         description: "#{beer.tag_line}",
-        image: "#{beer.image}",
+        image: beer.image_url,
         tier: "#{beer.tier_id}"
 
       switch robot.adapterName
@@ -31,7 +31,7 @@ module.exports = (robot) ->
               title: "#{beer.name}",
               text: "#{beer.description}"
               fallback: "#{beer.name} (ABV: #{beer.abv}) - #{beer.description}",
-              thumb_url: "#{beer.image}",
+              thumb_url: if beer.image? then beer.image else null,
               fields: [
                 {
                   title: "ABV %",
