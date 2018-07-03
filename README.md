@@ -2,7 +2,7 @@
 
 Get the latest beer on tap at East Nashville Beer Works
 
-[![npm version](https://badge.fury.io/js/hubot-enbw.svg)](http://badge.fury.io/js/hubot-enbw) [![Build Status](https://travis-ci.org/stephenyeargin/hubot-enbw.png)](https://travis-ci.org/stephenyeargin/hubot-enbw)
+[![npm version](https://badge.fury.io/js/hubot-enbw.svg)](http://badge.fury.io/js/hubot-enbw) [![Build Status](https://travis-ci.com/ENBW/hubot-enbw.png)](https://travis-ci.org/ENBW/hubot-enbw)
 
 See [`src/enbw.coffee`](src/enbw.coffee) for full documentation.
 

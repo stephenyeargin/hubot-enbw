@@ -7,10 +7,10 @@
   "keywords": "hubot, hubot-scripts, beer, east nashville, east nashville beer works, enbw",
   "repository": {
     "type": "git",
-    "url": "git://github.com/stephenyeargin/hubot-enbw.git"
+    "url": "git://github.com/ENBW/hubot-enbw.git"
   },
   "bugs": {
-    "url": "https://github.com/stephenyeargin/hubot-enbw/issues"
+    "url": "https://github.com/ENBW/hubot-enbw/issues"
   },
   "dependencies": {
     "asciitable": "0.0.7"
