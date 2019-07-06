@@ -37,6 +37,8 @@
   "main": "index.coffee",
   "scripts": {
     "release": "release-it",
-    "test": "grunt test"
+    "test": "grunt test",
+    "precommit": "npm test",
+    "prepush": "npm test"
   }
 }
