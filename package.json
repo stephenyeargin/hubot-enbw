@@ -1,7 +1,7 @@
 {
   "name": "hubot-enbw",
   "description": "Get the latest beer on tap at East Nashville Beer Works",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Stephen Yeargin <stephen@yearg.in>",
   "license": "MIT",
   "keywords": "hubot, hubot-scripts, beer, east nashville, east nashville beer works, enbw",
